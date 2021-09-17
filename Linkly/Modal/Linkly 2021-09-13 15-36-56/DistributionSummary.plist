@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Linkly</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>x86_64</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>86E54CD7FAD98C0F40329FD79162FF87ED977B38</string>
+				<key>dateExpires</key>
+				<string>9/14/26</string>
+				<key>type</key>
+				<string>Developer ID Application</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>x86_64</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>86E54CD7FAD98C0F40329FD79162FF87ED977B38</string>
+						<key>dateExpires</key>
+						<string>9/14/26</string>
+						<key>type</key>
+						<string>Developer ID Application</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>com.apple.security.app-sandbox</key>
+						<true/>
+					</dict>
+					<key>name</key>
+					<string>LaunchAtLoginHelper.app</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>5RD23JCCKU</string>
+						<key>name</key>
+						<string>Austin Pape</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>com.apple.security.app-sandbox</key>
+				<true/>
+				<key>com.apple.security.files.user-selected.read-only</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Linkly.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>5RD23JCCKU</string>
+				<key>name</key>
+				<string>Austin Pape</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,160 @@
+2021-09-13 19:36:51 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb6b400c4a0; archive(resolved)='<IDEArchive: 0x7fb6b433ee00>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDeveloperID: 0x7fb6b4970770>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb6af6aaf00; teamID='5RD23JCCKU', teamName='Austin Pape', teamType='Individual', username='hallie@halz.dev', isFreeProvisioningTeam='0'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fb6b400c4a0; archive = '<IDEArchive: 0x7fb6b433ee00>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fb6b4970770>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb6af6aaf00; teamID='5RD23JCCKU', teamName='Austin Pape', teamType='Individual', username='hallie@halz.dev', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fb6b4770d80; archive = '<IDEArchive: 0x7fb6b433ee00>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fb6b4970770>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb6af6aaf00; teamID='5RD23JCCKU', teamName='Austin Pape', teamType='Individual', username='hallie@halz.dev', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb6b95953c0; archive = '<IDEArchive: 0x7fb6b433ee00>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fb6b4970770>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb6af6aaf00; teamID='5RD23JCCKU', teamName='Austin Pape', teamType='Individual', username='hallie@halz.dev', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb6b384e150; archive = '<IDEArchive: 0x7fb6b433ee00>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fb6b4970770>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb6af6aaf00; teamID='5RD23JCCKU', teamName='Austin Pape', teamType='Individual', username='hallie@halz.dev', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb6b1252e30; archive = '<IDEArchive: 0x7fb6b433ee00>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fb6b4970770>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb6af6aaf00; teamID='5RD23JCCKU', teamName='Austin Pape', teamType='Individual', username='hallie@halz.dev', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb6b5832ce0; archive = '<IDEArchive: 0x7fb6b433ee00>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fb6b4970770>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb6af6aaf00; teamID='5RD23JCCKU', teamName='Austin Pape', teamType='Individual', username='hallie@halz.dev', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb6b0b23820; archive = '<IDEArchive: 0x7fb6b433ee00>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fb6b4970770>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb6af6aaf00; teamID='5RD23JCCKU', teamName='Austin Pape', teamType='Individual', username='hallie@halz.dev', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb6b5a665c0; archive = '<IDEArchive: 0x7fb6b433ee00>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fb6b4970770>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb6af6aaf00; teamID='5RD23JCCKU', teamName='Austin Pape', teamType='Individual', username='hallie@halz.dev', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb6b49e5660; archive = '<IDEArchive: 0x7fb6b433ee00>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fb6b4970770>', team='(null)'>
+	<IDEDistributionContext: 0x7fb6b950ea80; archive = '<IDEArchive: 0x7fb6b433ee00>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7fb6b4970770>', team='(null)'>
+	<IDEDistributionContext: 0x7fb6b49c2a50; archive = '<IDEArchive: 0x7fb6b433ee00>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fb6b400c4a0>
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionCreateDestRootStep
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionCopyItemStep
+2021-09-13 19:36:51 +0000  Running /usr/bin/ditto '-V' '/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app' '/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app'
+2021-09-13 19:36:51 +0000  >>> Copying /Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app 
+2021-09-13 19:36:51 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2021-09-13 19:36:51 +0000  3653 bytes for ./Contents/_CodeSignature/CodeResources
+2021-09-13 19:36:51 +0000  copying file ./Contents/MacOS/Linkly ... 
+2021-09-13 19:36:51 +0000  440304 bytes for ./Contents/MacOS/Linkly
+2021-09-13 19:36:51 +0000  copying file ./Contents/Resources/AppIcon.icns ... 
+2021-09-13 19:36:51 +0000  16044 bytes for ./Contents/Resources/AppIcon.icns
+2021-09-13 19:36:51 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2021-09-13 19:36:51 +0000  38495 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2021-09-13 19:36:51 +0000  163 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+2021-09-13 19:36:51 +0000  copying file ./Contents/Resources/Assets.car ... 
+2021-09-13 19:36:51 +0000  86248 bytes for ./Contents/Resources/Assets.car
+2021-09-13 19:36:51 +0000  copying file ./Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/_CodeSignature/CodeResources ... 
+2021-09-13 19:36:51 +0000  2200 bytes for ./Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/_CodeSignature/CodeResources
+2021-09-13 19:36:51 +0000  copying file ./Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/MacOS/LaunchAtLoginHelper ... 
+2021-09-13 19:36:51 +0000  181808 bytes for ./Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/MacOS/LaunchAtLoginHelper
+2021-09-13 19:36:51 +0000  copying file ./Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/Info.plist ... 
+2021-09-13 19:36:51 +0000  910 bytes for ./Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/Info.plist
+2021-09-13 19:36:51 +0000  copying file ./Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/PkgInfo ... 
+2021-09-13 19:36:51 +0000  8 bytes for ./Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/PkgInfo
+2021-09-13 19:36:51 +0000  copying file ./Contents/Info.plist ... 
+2021-09-13 19:36:51 +0000  1533 bytes for ./Contents/Info.plist
+2021-09-13 19:36:51 +0000  copying file ./Contents/PkgInfo ... 
+2021-09-13 19:36:51 +0000  8 bytes for ./Contents/PkgInfo
+2021-09-13 19:36:51 +0000  /usr/bin/ditto exited with 0
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionEmbedProfileStep
+2021-09-13 19:36:51 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb6b953e430; bundleID='dev.halz.Linkly-LaunchAtLoginHelper', path='<DVTFilePath:0x7fb6b4338880:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb6c84ee010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb6b956bc20; name='Apple Development: Austin Pape (CT44P6LGD8)', hash='19A0334486E31F9D60CD9032033C823D15357678', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb6b1a951c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-09-13 17:22:00 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+}', teamID='5RD23JCCKU', identifier='dev.halz.Linkly-LaunchAtLoginHelper', executablePath='<DVTFilePath:0x7fb6b433b870:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/MacOS/LaunchAtLoginHelper'>', hardenedRuntime='1'>'>
+2021-09-13 19:36:51 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb6b5673b20; bundleID='dev.halz.Linkly', path='<DVTFilePath:0x7fb6b09e69e0:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb6b3f9b6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb6b113e2d0; name='Apple Development: Austin Pape (CT44P6LGD8)', hash='19A0334486E31F9D60CD9032033C823D15357678', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb6b0b6c290>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-09-13 17:22:00 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='5RD23JCCKU', identifier='dev.halz.Linkly', executablePath='<DVTFilePath:0x7fb6b433d200:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/MacOS/Linkly'>', hardenedRuntime='1'>'>
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionInfoPlistStep
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionSymbolsStep
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionAppThinningStep
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionArchThinningStep
+2021-09-13 19:36:51 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/MacOS/LaunchAtLoginHelper' '-verify_arch' 'arm64e'
+2021-09-13 19:36:51 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-09-13 19:36:51 +0000  Skipping architecture thinning for item "LaunchAtLoginHelper" because arch "arm64e" wasn't found
+2021-09-13 19:36:51 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app/Contents/MacOS/Linkly' '-verify_arch' 'arm64e'
+2021-09-13 19:36:51 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-09-13 19:36:51 +0000  Skipping architecture thinning for item "Linkly" because arch "arm64e" wasn't found
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionODRStep
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionStripXattrsStep
+2021-09-13 19:36:51 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb6b953e430; bundleID='dev.halz.Linkly-LaunchAtLoginHelper', path='<DVTFilePath:0x7fb6b4338880:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb6c84ee010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb6af40e340; name='Apple Development: Austin Pape (CT44P6LGD8)', hash='19A0334486E31F9D60CD9032033C823D15357678', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb6b1723850>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-09-13 17:22:00 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+}', teamID='5RD23JCCKU', identifier='dev.halz.Linkly-LaunchAtLoginHelper', executablePath='<DVTFilePath:0x7fb6b433b870:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/MacOS/LaunchAtLoginHelper'>', hardenedRuntime='1'>'>
+2021-09-13 19:36:51 +0000  Running /usr/bin/xattr '-crs' '/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app'
+2021-09-13 19:36:51 +0000  /usr/bin/xattr exited with 0
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionCodesignStep
+2021-09-13 19:36:51 +0000  Entitlements for <IDEDistributionItem: 0x7fb6b953e430; bundleID='dev.halz.Linkly-LaunchAtLoginHelper', path='<DVTFilePath:0x7fb6b4338880:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb6c84ee010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb6b9507170; name='Apple Development: Austin Pape (CT44P6LGD8)', hash='19A0334486E31F9D60CD9032033C823D15357678', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb6b3fd2b70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-09-13 17:22:00 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+}', teamID='5RD23JCCKU', identifier='dev.halz.Linkly-LaunchAtLoginHelper', executablePath='<DVTFilePath:0x7fb6b433b870:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/MacOS/LaunchAtLoginHelper'>', hardenedRuntime='1'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+}
+2021-09-13 19:36:51 +0000  Entitlements for <IDEDistributionItem: 0x7fb6b953e430; bundleID='dev.halz.Linkly-LaunchAtLoginHelper', path='<DVTFilePath:0x7fb6b4338880:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb6c84ee010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb6b956c340; name='Apple Development: Austin Pape (CT44P6LGD8)', hash='19A0334486E31F9D60CD9032033C823D15357678', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb6b56c86b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-09-13 17:22:00 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+}', teamID='5RD23JCCKU', identifier='dev.halz.Linkly-LaunchAtLoginHelper', executablePath='<DVTFilePath:0x7fb6b433b870:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/MacOS/LaunchAtLoginHelper'>', hardenedRuntime='1'>'> are: {
+    "com.apple.security.app-sandbox" = 1;
+}
+2021-09-13 19:36:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb6b953e430; bundleID='dev.halz.Linkly-LaunchAtLoginHelper', path='<DVTFilePath:0x7fb6b4338880:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb6c84ee010; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb6af40e340; name='Apple Development: Austin Pape (CT44P6LGD8)', hash='19A0334486E31F9D60CD9032033C823D15357678', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb6b1723850>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-09-13 17:22:00 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+}', teamID='5RD23JCCKU', identifier='dev.halz.Linkly-LaunchAtLoginHelper', executablePath='<DVTFilePath:0x7fb6b433b870:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/MacOS/LaunchAtLoginHelper'>', hardenedRuntime='1'>'> to: /var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/entitlements~~~KoHKU7
+2021-09-13 19:36:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86E54CD7FAD98C0F40329FD79162FF87ED977B38' '--entitlements' '/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/entitlements~~~KoHKU7' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "5RD23JCCKU" ))' '/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app'
+2021-09-13 19:36:51 +0000  /var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app: replacing existing signature
+2021-09-13 19:36:51 +0000  /var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app: signed app bundle with Mach-O universal (x86_64 arm64) [dev.halz.Linkly-LaunchAtLoginHelper]
+2021-09-13 19:36:51 +0000  /usr/bin/codesign exited with 0
+2021-09-13 19:36:51 +0000  Entitlements for <IDEDistributionItem: 0x7fb6b5673b20; bundleID='dev.halz.Linkly', path='<DVTFilePath:0x7fb6b09e69e0:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb6b3f9b6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb6b3a1e8a0; name='Apple Development: Austin Pape (CT44P6LGD8)', hash='19A0334486E31F9D60CD9032033C823D15357678', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb6b17541b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-09-13 17:22:00 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='5RD23JCCKU', identifier='dev.halz.Linkly', executablePath='<DVTFilePath:0x7fb6b433d200:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/MacOS/Linkly'>', hardenedRuntime='1'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2021-09-13 19:36:51 +0000  Entitlements for <IDEDistributionItem: 0x7fb6b5673b20; bundleID='dev.halz.Linkly', path='<DVTFilePath:0x7fb6b09e69e0:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb6b3f9b6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb6b956c330; name='Apple Development: Austin Pape (CT44P6LGD8)', hash='19A0334486E31F9D60CD9032033C823D15357678', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb6b3fe11a0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-09-13 17:22:00 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='5RD23JCCKU', identifier='dev.halz.Linkly', executablePath='<DVTFilePath:0x7fb6b433d200:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/MacOS/Linkly'>', hardenedRuntime='1'>'> are: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2021-09-13 19:36:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb6b5673b20; bundleID='dev.halz.Linkly', path='<DVTFilePath:0x7fb6b09e69e0:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb6b3f9b6d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb6b9551440; name='Apple Development: Austin Pape (CT44P6LGD8)', hash='19A0334486E31F9D60CD9032033C823D15357678', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb6c8a2cf00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-09-13 17:22:00 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='5RD23JCCKU', identifier='dev.halz.Linkly', executablePath='<DVTFilePath:0x7fb6b433d200:'/Users/hallie/Library/Developer/Xcode/Archives/2021-09-13/Linkly 9-13-21, 3.36 PM.xcarchive/Products/Applications/Linkly.app/Contents/MacOS/Linkly'>', hardenedRuntime='1'>'> to: /var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/entitlements~~~iRDTaf
+2021-09-13 19:36:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '86E54CD7FAD98C0F40329FD79162FF87ED977B38' '--entitlements' '/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/entitlements~~~iRDTaf' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "5RD23JCCKU" ))' '/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app'
+2021-09-13 19:36:51 +0000  /var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app: replacing existing signature
+2021-09-13 19:36:51 +0000  /var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app: signed app bundle with Mach-O universal (x86_64 arm64) [dev.halz.Linkly]
+2021-09-13 19:36:51 +0000  /usr/bin/codesign exited with 0
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionZipODRItemStep
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionSkipPackagingStep
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2021-09-13 19:36:51 +0000  IDEDistributionItem init <DVTFilePath:0x7fb6b956b670:'/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app'>
+2021-09-13 19:36:51 +0000  [OPTIONAL] Didn't find embedded provisioning profile for <DVTFilePath:0x7fb6b956b670:'/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app'>: Error Domain=NSCocoaErrorDomain Code=4 "No file at <DVTFilePath:0x7fb6b954bba0:'/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/embedded.provisionprofile'>" UserInfo={NSLocalizedDescription=No file at <DVTFilePath:0x7fb6b954bba0:'/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app/Contents/Library/LoginItems/LaunchAtLoginHelper.app/Contents/embedded.provisionprofile'>}
+2021-09-13 19:36:51 +0000  IDEDistributionItem init <DVTFilePath:0x7fb6b956a840:'/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app'>
+2021-09-13 19:36:51 +0000  [OPTIONAL] Didn't find embedded provisioning profile for <DVTFilePath:0x7fb6b956a840:'/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app'>: Error Domain=NSCocoaErrorDomain Code=4 "No file at <DVTFilePath:0x7fb6b9554dd0:'/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app/Contents/embedded.provisionprofile'>" UserInfo={NSLocalizedDescription=No file at <DVTFilePath:0x7fb6b9554dd0:'/var/folders/bz/trnkb2cs65b7kcyqtm67zzmm0000gn/T/XcodeDistPipeline.~~~4WNMqA/Root/Applications/Linkly.app/Contents/embedded.provisionprofile'>}
+2021-09-13 19:36:51 +0000  Processing step: IDEDistributionCreateManifestStep
+2021-09-13 19:36:51 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

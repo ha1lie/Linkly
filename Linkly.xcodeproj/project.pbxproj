@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,15 @@
 		262108D626EFDCE10031653D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262108D526EFDCE10031653D /* Assets.xcassets */; };
 		262108D926EFDCE10031653D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262108D826EFDCE10031653D /* Preview Assets.xcassets */; };
 		262108DC26EFDCE10031653D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262108DA26EFDCE10031653D /* Main.storyboard */; };
+		262108E926EFDD150031653D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262108E826EFDD150031653D /* OnboardingView.swift */; };
+		262108EB26EFDD220031653D /* Linkly+Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262108EA26EFDD220031653D /* Linkly+Shape.swift */; };
+		262108ED26EFDD2A0031653D /* TextBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262108EC26EFDD2A0031653D /* TextBar.swift */; };
+		262108EF26EFDD320031653D /* ZoomLinkColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262108EE26EFDD320031653D /* ZoomLinkColorCell.swift */; };
+		262108F126EFDD390031653D /* ZoomLinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262108F026EFDD390031653D /* ZoomLinkCell.swift */; };
+		262108F326EFDD500031653D /* ZoomLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262108F226EFDD500031653D /* ZoomLink.swift */; };
+		262108F526EFDD570031653D /* ZoomLinkColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262108F426EFDD570031653D /* ZoomLinkColor.swift */; };
+		262108F726EFDD5D0031653D /* ZoomLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262108F626EFDD5D0031653D /* ZoomLinkManager.swift */; };
+		262108FA26EFDE040031653D /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 262108F926EFDE040031653D /* LaunchAtLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +32,14 @@
 		262108DB26EFDCE10031653D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		262108DD26EFDCE10031653D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		262108DE26EFDCE10031653D /* Linkly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Linkly.entitlements; sourceTree = "<group>"; };
+		262108E826EFDD150031653D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		262108EA26EFDD220031653D /* Linkly+Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Linkly+Shape.swift"; sourceTree = "<group>"; };
+		262108EC26EFDD2A0031653D /* TextBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBar.swift; sourceTree = "<group>"; };
+		262108EE26EFDD320031653D /* ZoomLinkColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomLinkColorCell.swift; sourceTree = "<group>"; };
+		262108F026EFDD390031653D /* ZoomLinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomLinkCell.swift; sourceTree = "<group>"; };
+		262108F226EFDD500031653D /* ZoomLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomLink.swift; sourceTree = "<group>"; };
+		262108F426EFDD570031653D /* ZoomLinkColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomLinkColor.swift; sourceTree = "<group>"; };
+		262108F626EFDD5D0031653D /* ZoomLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomLinkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262108FA26EFDE040031653D /* LaunchAtLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				262108D126EFDCE00031653D /* AppDelegate.swift */,
-				262108D326EFDCE00031653D /* ContentView.swift */,
+				262108E426EFDCEA0031653D /* UI */,
+				262108E526EFDCF00031653D /* Modal */,
 				262108D526EFDCE10031653D /* Assets.xcassets */,
 				262108DA26EFDCE10031653D /* Main.storyboard */,
 				262108DD26EFDCE10031653D /* Info.plist */,
@@ -74,6 +93,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		262108E426EFDCEA0031653D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				262108D326EFDCE00031653D /* ContentView.swift */,
+				262108E626EFDD050031653D /* Extensions */,
+				262108E726EFDD0A0031653D /* Pieces */,
+				262108E826EFDD150031653D /* OnboardingView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		262108E526EFDCF00031653D /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				262108F226EFDD500031653D /* ZoomLink.swift */,
+				262108F426EFDD570031653D /* ZoomLinkColor.swift */,
+				262108F626EFDD5D0031653D /* ZoomLinkManager.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		262108E626EFDD050031653D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				262108EA26EFDD220031653D /* Linkly+Shape.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		262108E726EFDD0A0031653D /* Pieces */ = {
+			isa = PBXGroup;
+			children = (
+				262108EC26EFDD2A0031653D /* TextBar.swift */,
+				262108EE26EFDD320031653D /* ZoomLinkColorCell.swift */,
+				262108F026EFDD390031653D /* ZoomLinkCell.swift */,
+			);
+			path = Pieces;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -84,12 +142,16 @@
 				262108CA26EFDCE00031653D /* Sources */,
 				262108CB26EFDCE00031653D /* Frameworks */,
 				262108CC26EFDCE00031653D /* Resources */,
+				262108FB26EFDF2F0031653D /* Launch At Login Helper */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Linkly;
+			packageProductDependencies = (
+				262108F926EFDE040031653D /* LaunchAtLogin */,
+			);
 			productName = Linkly;
 			productReference = 262108CE26EFDCE00031653D /* Linkly.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +179,9 @@
 				Base,
 			);
 			mainGroup = 262108C526EFDCE00031653D;
+			packageReferences = (
+				262108F826EFDE040031653D /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+			);
 			productRefGroup = 262108CF26EFDCE00031653D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,12 +204,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		262108FB26EFDF2F0031653D /* Launch At Login Helper */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Launch At Login Helper";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		262108CA26EFDCE00031653D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262108F726EFDD5D0031653D /* ZoomLinkManager.swift in Sources */,
+				262108F126EFDD390031653D /* ZoomLinkCell.swift in Sources */,
+				262108ED26EFDD2A0031653D /* TextBar.swift in Sources */,
+				262108EB26EFDD220031653D /* Linkly+Shape.swift in Sources */,
+				262108E926EFDD150031653D /* OnboardingView.swift in Sources */,
+				262108F526EFDD570031653D /* ZoomLinkColor.swift in Sources */,
+				262108F326EFDD500031653D /* ZoomLink.swift in Sources */,
 				262108D426EFDCE00031653D /* ContentView.swift in Sources */,
+				262108EF26EFDD320031653D /* ZoomLinkColorCell.swift in Sources */,
 				262108D226EFDCE00031653D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +380,7 @@
 				CODE_SIGN_ENTITLEMENTS = Linkly/Linkly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Linkly/Preview Content\"";
 				DEVELOPMENT_TEAM = 5RD23JCCKU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -295,7 +390,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.halz.Linkly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -310,6 +405,7 @@
 				CODE_SIGN_ENTITLEMENTS = Linkly/Linkly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Linkly/Preview Content\"";
 				DEVELOPMENT_TEAM = 5RD23JCCKU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -319,7 +415,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.halz.Linkly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -348,6 +444,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		262108F826EFDE040031653D /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		262108F926EFDE040031653D /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 262108F826EFDE040031653D /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 262108C626EFDCE00031653D /* Project object */;
 }
